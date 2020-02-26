@@ -11,3 +11,17 @@ media-card-custom-gutenberg-block
 8. You’re done!
 9. Available On Layout Section with the name of Media Card Right Video,Media Card Left Video,Media Card Left Image,Media Card Right Image, Media Card Column, Media Card three Column
 # Gutenburg Templates
+const TEMPLATE = [ [ 'core/columns', {}, [
+    [ 'core/column', {}, [
+        ['core/image'],
+        [ 'core/heading', { placeholder: 'Heading Here' } ],
+        [ 'core/paragraph', { placeholder: 'Enter Paragraph' } ],
+        [ 'core/button', { placeholder: 'Button' } ],
+    ] ],
+    [ 'core/column', {}, [
+        ['core/image'],
+        [ 'core/heading', { placeholder: 'Heading Here' } ],
+        [ 'core/paragraph', { placeholder: 'Enter Paragraph' } ],
+        [ 'core/button', { placeholder: 'Button' } ],
+    ] ],
+] ] ];
